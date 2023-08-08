@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav className="bg-[#A43030] flex justify-center">
-        <ul className="flex justify-between text-white uppercase w-[500px] px-5">
+        <ul className="flex justify-between text-white uppercase w-[500px] px-5 text-[32px]">
           <li>Home</li>
           <li>Projects</li>
           <li>Experience</li>
