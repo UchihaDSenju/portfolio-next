@@ -5,5 +5,5 @@ import Icon from "./icon";
 export {
     Navbar,
     Footer,
-    Icon
+    Icon,
 }
