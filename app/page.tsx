@@ -1,4 +1,4 @@
-import Hero from '@/components/hero'
+import { Hero, DescriptionSection } from '@/components'
 import Image from 'next/image'
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <div className="page-container">
         <Hero />
         <div className="text-[96px] uppercase text-center text-white">What I do ?</div>
+        <DescriptionSection />
       </div>
     </>
   )

@@ -21,3 +21,19 @@ export const FooterMediaIcons = [
         icon: Discord
     },
 ]
+
+export const descriptions = [
+    {
+        desc: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY STACK"
+    },
+    {
+        desc: "self learner who learns through everything there is to learn in a concept"
+    },
+    {
+        desc: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY STACK"
+    },
+    {
+        desc: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY STACK"
+    },
+]
+

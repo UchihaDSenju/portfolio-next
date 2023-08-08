@@ -4,3 +4,7 @@ export interface iconProps {
     iconImage: StaticImageData,
     Desc?: string
 }
+
+export interface descriptionProps{
+    desc: string
+}
