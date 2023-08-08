@@ -2,7 +2,8 @@ import { StaticImageData } from "next/image";
 
 export interface iconProps {
     iconImage: StaticImageData,
-    Desc?: string
+    Width: number,
+    Height: number
 }
 
 export interface descriptionProps{

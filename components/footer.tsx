@@ -11,7 +11,7 @@ function Footer() {
       <div className="flex w-[70%] justify-evenly mx-auto my-6">
         {FooterMediaIcons.map((icon) => {
           return(
-            <Icon iconImage={icon.icon}  />
+            <Icon iconImage={icon.icon} Width={60} Height={60}  />
           )
         })}
       </div>

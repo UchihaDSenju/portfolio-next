@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import { iconProps } from '@/types'
 
-function Icon({iconImage, Desc}: iconProps) {
+function Icon({iconImage, Width, Height}: iconProps) {
   return (
     <>
         <div>
-            <Image width={60} height={60} src={iconImage} alt='icon' />    
+            <Image width={Width} height={Height} src={iconImage} alt='icon' />    
         </div>
     </>
   )
