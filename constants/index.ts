@@ -30,7 +30,7 @@ export const descriptions = [
         desc: "self learner who learns through everything there is to learn in a concept"
     },
     {
-        desc: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY STACK"
+        desc: "Right now i am checking the git remote commit in another branch"
     },
     {
         desc: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY STACK"
