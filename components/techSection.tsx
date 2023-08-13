@@ -9,9 +9,9 @@ function TechSection() {
     <>
         <div className="grid grid-cols-2 my-5">
             <div className='flex flex-wrap items-center justify-center bg-[#A43030]'>
-                {techStacks.map((tech) => {
+                {techStacks.map((tech, id) => {
                     return(
-                        <Icon iconImage={tech.icon} Width={180} Height={180} />                    )
+                        <Icon key={id} iconImage={tech.icon} Width={180} Height={180} />                    )
                 })}
             </div>
             <div className="flex flex-col justify-center items-center">
