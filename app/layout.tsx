@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="background-theme">
-        <div className="main-page bg-[#2A2C34] mx-11">
+        <div className="main-page bg-[#2A2C34] mx-[7%]">
           <Navbar />
           {children}
           <Footer />
