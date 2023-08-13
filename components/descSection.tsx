@@ -6,9 +6,9 @@ function DescriptionSection() {
   return (
     <>
         <div className="bg-[#2D3658] my-5 p-10">
-          {descriptions.map((desc) => {
+          {descriptions.map((desc, id) => {
             return(
-              <Description desc={desc.desc} />
+              <Description key={id} desc={desc.desc} />
             )
           })}
         </div>
